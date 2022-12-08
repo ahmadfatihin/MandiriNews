@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getAllNews() {
-        val news = NewsService.newsInstance.getAllNews("indonesia",pageNum)
+        val news = NewsService.newsInstance.getAllNews("bank mandiri",pageNum)
         news.enqueue(object : Callback<News> {
 
             override fun onResponse(call: Call<News>, response: Response<News>) {

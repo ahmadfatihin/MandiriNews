@@ -35,7 +35,7 @@
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="10dp"
-                android:src="@drawable/rakamin"
+                android:src="@drawable/mandiri"
                 android:scaleType="centerCrop"
                 />
 
@@ -45,7 +45,7 @@
                 android:layout_marginStart="20dp"
                 android:fontFamily="@font/roboto_medium"
                 android:gravity="center"
-                android:text="Rakamin News"
+                android:text="Mandiri News"
                 android:textColor="@color/mainText"
                 android:textFontWeight="700"
                 android:letterSpacing="0.05"
