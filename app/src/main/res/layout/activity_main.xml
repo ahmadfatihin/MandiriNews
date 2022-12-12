@@ -16,12 +16,14 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
         android:layout_height="match_parent">
 
 
 
         <LinearLayout
             android:id="@+id/topBarLayout"
+            android:layout_centerHorizontal="true"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
@@ -56,14 +58,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center"
-                android:layout_marginEnd="10dp"
-                android:padding="12dp"
-                android:src="@drawable/ic_search"
-                app:tint="@color/mainText" />
+
 
         </LinearLayout>
 
@@ -118,8 +113,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                tools:listitem="@layout/single_all_news"
-                >
+                tools:listitem="@layout/single_all_news">
 
             </androidx.recyclerview.widget.RecyclerView>
         </LinearLayout>
