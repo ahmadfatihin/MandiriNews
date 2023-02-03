@@ -1,6 +1,6 @@
-package dev.Rakamin.newsapp.network
+package dev.Mandiri.newsapp.network
 
-import dev.Rakamin.newsapp.data.News
+import dev.Mandiri.newsapp.data.News
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

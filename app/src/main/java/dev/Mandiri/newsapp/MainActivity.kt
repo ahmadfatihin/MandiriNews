@@ -1,4 +1,4 @@
-package dev.Rakamin.newsapp
+package dev.Mandiri.newsapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,15 +8,15 @@ import android.widget.LinearLayout
 import android.widget.ProgressBar
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import dev.Rakamin.newsapp.adapter.HeadlineAdapter
-import dev.Rakamin.newsapp.data.News
-import dev.Rakamin.newsapp.network.NewsService
+import dev.Mandiri.newsapp.adapter.HeadlineAdapter
+import dev.Mandiri.newsapp.data.News
+import dev.Mandiri.newsapp.network.NewsService
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import dev.Rakamin.newsapp.adapter.AllNewsAdapter
-import java.util.*
+import dev.Mandiri.newsapp.adapter.AllNewsAdapter
+import dev.Rakamin.newsapp.R
 
 
 class MainActivity : AppCompatActivity() {

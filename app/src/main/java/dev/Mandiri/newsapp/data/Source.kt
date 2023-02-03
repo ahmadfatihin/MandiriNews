@@ -1,4 +1,4 @@
-package dev.Rakamin.newsapp.data
+package dev.Mandiri.newsapp.data
 
 
 import com.google.gson.annotations.SerializedName

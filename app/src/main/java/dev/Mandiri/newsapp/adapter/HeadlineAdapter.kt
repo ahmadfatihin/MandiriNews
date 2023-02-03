@@ -1,4 +1,4 @@
-package dev.Rakamin.newsapp.adapter
+package dev.Mandiri.newsapp.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,15 +8,15 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import dev.Rakamin.newsapp.R
-import dev.Rakamin.newsapp.data.Article
+import dev.Mandiri.newsapp.R
+import dev.Mandiri.newsapp.data.Article
 
-class AllNewsAdapter(val context: Context): RecyclerView.Adapter<AllNewsAdapter.ArticleViewHolder>(){
+class HeadlineAdapter(val context: Context): RecyclerView.Adapter<HeadlineAdapter.ArticleViewHolder>(){
 
     var articles: ArrayList<Article> = arrayListOf()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArticleViewHolder {
-        val view : View = LayoutInflater.from(context).inflate(R.layout.single_all_news,parent,false)
+        val view : View = LayoutInflater.from(context).inflate(R.layout.single_headline,parent,false)
         return ArticleViewHolder(view)
     }
 
@@ -42,10 +42,10 @@ class AllNewsAdapter(val context: Context): RecyclerView.Adapter<AllNewsAdapter.
 
 
     class ArticleViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
-        val imageView = itemView.findViewById<ImageView>(R.id.imageView_singleAllNews)
-        var title = itemView.findViewById<TextView>(R.id.title_singleAllNews)
-        val author = itemView.findViewById<TextView>(R.id.author_singleAllNews)
-        val date = itemView.findViewById<TextView>(R.id.date_singleAllNews)
+        val imageView = itemView.findViewById<ImageView>(R.id.imageView_singleHeadline)
+        var title = itemView.findViewById<TextView>(R.id.title_singleHeadline)
+        val author = itemView.findViewById<TextView>(R.id.author_singleHeadline)
+        val date = itemView.findViewById<TextView>(R.id.date_singleHeadline)
     }
 
     fun clear() {

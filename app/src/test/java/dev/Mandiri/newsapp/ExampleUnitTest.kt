@@ -1,4 +1,4 @@
-package dev.Rakamin.newsapp
+package dev.Mandiri.newsapp
 
 import org.junit.Test
 
